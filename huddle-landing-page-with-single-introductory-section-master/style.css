@@ -62,7 +62,7 @@ body {
   margin: 1.5rem 0;
 }
 
-button {
+.register {
   font-family: var(--font-family-sans);
   font-size: 15px;
   text-align: center;
@@ -71,4 +71,47 @@ button {
   color: var(--primary-violet);
   padding: 10px 60px;
   border-radius: 60px;
+  cursor: pointer;
+}
+
+.register:hover {
+  color: white;
+  background-color: var(--primary-Soft-Magenta);
+}
+
+.icons-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  margin-top: -2.5rem;
+}
+
+.btn {
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  border: 1px solid var(--primary-Soft-Magenta);
+  background: transparent;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.btn i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.btn i:hover {
+  color: var(--primary-Soft-Magenta);
 }
