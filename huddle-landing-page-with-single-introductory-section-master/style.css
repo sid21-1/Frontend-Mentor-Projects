@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-violet: hsl(257, 40%, 49%);
+  --primary-Soft-Magenta: hsl(300, 69%, 71%);
+  --font-karla: "Karla", sans-serif;
+  --font-family-sans: "Open Sans", sans-serif;
+  --font-family-poppins: "Poppins", sans-serif;
+}
