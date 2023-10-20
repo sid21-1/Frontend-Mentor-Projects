@@ -23,7 +23,6 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
- 
 }
 
 .main {
@@ -44,11 +43,10 @@ body {
   margin: 2rem 0;
 }
 
-.left img{
+.left img {
   width: 100%;
   height: auto;
 }
-
 
 .right {
   margin-left: 2rem;
@@ -85,7 +83,6 @@ body {
   color: white;
   background-color: var(--primary-Soft-Magenta);
 }
-
 
 .icons-box {
   display: flex;
@@ -124,27 +121,25 @@ body {
   color: var(--primary-Soft-Magenta);
 }
 
-
-
-@media (max-width: 380px){
-  body{
+@media (max-width: 380px) {
+  body {
     overflow: visible;
     overflow-x: hidden;
   }
-  .main{
+  .main {
     max-width: 340px;
     margin-inline: auto;
   }
 
-  .logo img{
+  .logo img {
     width: 120px;
     height: 120px;
   }
 
-  .main-section{
+  .main-section {
     flex-direction: column;
   }
-  .right{
+  .right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,14 +147,14 @@ body {
     margin-top: 1rem;
     margin-left: 0;
   }
-  .right h1{
+  .right h1 {
     text-align: center;
   }
 
-  .right p{
+  .right p {
     text-align: center;
   }
-  .icons-box{
+  .icons-box {
     justify-content: center;
     align-self: center;
     margin-top: 1rem;
