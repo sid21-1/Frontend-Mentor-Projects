@@ -23,6 +23,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+ 
 }
 
 .main {
@@ -42,6 +43,12 @@ body {
   display: flex;
   margin: 2rem 0;
 }
+
+.left img{
+  width: 100%;
+  height: auto;
+}
+
 
 .right {
   margin-left: 2rem;
@@ -79,6 +86,7 @@ body {
   background-color: var(--primary-Soft-Magenta);
 }
 
+
 .icons-box {
   display: flex;
   justify-content: flex-end;
@@ -114,4 +122,46 @@ body {
 
 .btn i:hover {
   color: var(--primary-Soft-Magenta);
+}
+
+
+
+@media (max-width: 380px){
+  body{
+    overflow: visible;
+    overflow-x: hidden;
+  }
+  .main{
+    max-width: 340px;
+    margin-inline: auto;
+  }
+
+  .logo img{
+    width: 120px;
+    height: 120px;
+  }
+
+  .main-section{
+    flex-direction: column;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+  .right h1{
+    text-align: center;
+  }
+
+  .right p{
+    text-align: center;
+  }
+  .icons-box{
+    justify-content: center;
+    align-self: center;
+    margin-top: 1rem;
+  }
 }
