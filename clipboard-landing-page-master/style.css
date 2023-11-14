@@ -34,7 +34,7 @@
 
 .container {
   max-width: 1250px;
-  height: 100vh;
+  /* height: 100vh; */
   margin-right: auto;
   margin-left: auto;
 }
@@ -49,7 +49,8 @@ body {
 
 .main {
   position: relative;
-  /* border: 6px solid black; */
+  height: 90vh;
+  /* border: 6px solid red; */
 }
 
 .content-div {
@@ -99,4 +100,46 @@ body {
 
 .secondary {
   background-color: var(--Light-Blue);
+}
+
+.snippets {
+  /* height: 30vh; */
+  /* border: 4px solid green; */
+  flex-direction: column;
+}
+
+.snippets h2 {
+  font-size: 2rem;
+  color: var(--Dark-Grayish-Blue);
+  padding-bottom: 2rem;
+}
+
+.snippets p {
+  font-size: 1.5rem;
+  color: var(--Grayish-Blue);
+  line-height: 1.3;
+}
+
+.laptop {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.laptop-content {
+  margin: 3rem 5rem;
+}
+
+.laptop-content h2 {
+  font-size: 1.5rem;
+  color: var(--Dark-Grayish-Blue);
+  padding: 1rem 0;
+}
+.laptop-content p {
+  font-size: 1rem;
+  color: var(--Grayish-Blue);
+  line-height: 1.2;
+}
+
+.laptop-content h2 + p + p {
+  margin-bottom: 1rem;
 }
