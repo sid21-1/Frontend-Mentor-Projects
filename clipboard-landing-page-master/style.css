@@ -171,3 +171,20 @@ body {
 .image-devices {
   /* border: 2px solid red; */
 }
+
+/* 6th section */
+.super-charge {
+  flex-direction: column;
+}
+
+.super-charge h2 {
+  font-size: 2.2rem;
+  color: var(--Dark-Grayish-Blue);
+  padding-bottom: 2rem;
+}
+
+.super-charge p {
+  font-size: 1.2rem;
+  color: var(--Grayish-Blue);
+  line-height: 1.3;
+}
