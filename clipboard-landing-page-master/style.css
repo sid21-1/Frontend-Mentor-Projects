@@ -211,3 +211,12 @@ body {
 .card p {
   color: var(--Grayish-Blue);
 }
+
+/* 8th section */
+.company-logos {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+.company-logos img {
+  margin: 0 2.5rem;
+}
