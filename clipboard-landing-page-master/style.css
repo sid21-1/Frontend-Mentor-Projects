@@ -94,6 +94,12 @@ body {
   margin: 0 1rem;
 }
 
+.btn:hover {
+  font-size: bold;
+  opacity: 0.9;
+  cursor: pointer;
+}
+
 .primary {
   background-color: var(--Strong-Cyan);
 }
@@ -225,4 +231,40 @@ body {
 .download-section-content {
   flex-direction: column;
   /* border: 3px solid black; */
+  margin-bottom: 6rem;
+}
+
+/* 10th section */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* padding-bottom: 2rem; */
+}
+.img img {
+  height: 50px;
+  width: 50px;
+}
+
+.links {
+  display: flex;
+}
+
+.links2 {
+  /* border: 3px solid green; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.links a {
+  text-decoration: none;
+  color: var(--Light-Blue);
+  font-size: 1.2rem;
+  margin: 0.8rem 1rem;
+}
+
+.icons img {
+  margin: 0 1rem;
 }
